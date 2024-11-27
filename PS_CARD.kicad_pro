@@ -58,7 +58,9 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "courtyards_overlap|68349201|107150001|82bf4b77-3582-4545-becb-63b3b37358fd|f7b3f511-6f03-4bf1-8d8d-ff9dae23cae9"
+      ],
       "meta": {
         "version": 2
       },
@@ -118,8 +120,8 @@
         "max_error": 0.005,
         "min_clearance": 0.5,
         "min_connection": 0.5,
-        "min_copper_edge_clearance": 0.3,
-        "min_hole_clearance": 0.25,
+        "min_copper_edge_clearance": 0.38,
+        "min_hole_clearance": 0.38,
         "min_hole_to_hole": 0.25,
         "min_microvia_diameter": 0.2,
         "min_microvia_drill": 0.1,
@@ -130,7 +132,7 @@
         "min_through_hole_diameter": 0.3,
         "min_track_width": 0.5,
         "min_via_annular_width": 0.2,
-        "min_via_diameter": 0.65,
+        "min_via_diameter": 0.6,
         "solder_mask_to_copper_clearance": 0.0,
         "use_height_for_length_calcs": true
       },
@@ -438,7 +440,7 @@
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "error",
+      "pin_to_pin": "ignore",
       "power_pin_not_driven": "error",
       "similar_labels": "warning",
       "simulation_model_issue": "ignore",
